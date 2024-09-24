@@ -1,8 +1,11 @@
 # SQLAlchemy Tutorial
 
 ## Introduction
-
 This tutorial is a step-by-step guide to help you get started with SQLAlchemy. It is intended for beginners who want to learn how to use SQLAlchemy with Python.
+
+
+## Documentation
+- [SQLAlchemy](https://www.sqlalchemy.org/)
 
 
 ## Requirements
@@ -10,7 +13,6 @@ This tutorial is a step-by-step guide to help you get started with SQLAlchemy. I
 2. Install the required packages
 3. Set .env file
 4. Run app/models.py
-
 
 ### .env file example
 ```bash
