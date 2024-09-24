@@ -9,5 +9,7 @@ dotenv.load_dotenv(dotenv_path)
 
 
 message = os.environ.get('MESSAGE', None)
+test = os.environ.get('TEST', None)
 
-print(message)
+print(f'Message: {message}')
+print(f'Test: {test}')
