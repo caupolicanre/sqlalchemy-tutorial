@@ -1,5 +1,8 @@
+Faker==29.0.0
 greenlet==3.0.3
 mysql-connector-python==9.0.0
+python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
+six==1.16.0
 SQLAlchemy==2.0.34
 typing_extensions==4.12.2
