@@ -6,7 +6,6 @@ from app.models import User, Address
 from db.funcs.db_connection import get_db_connection
 
 
-
 engine = get_db_connection()
 
 fake = Faker()
