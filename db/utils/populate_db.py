@@ -27,7 +27,8 @@ def populate_db(num_users: int, num_addresses_per_user: int):
         for _ in range(num_users):
             user = User(
                 username=fake.user_name(),
-                fullname=fake.name()
+                fullname=fake.name(),
+                age=fake.random_int(min=18, max=90)
             )
             session.add(user)
             session.commit()  # Commit the user to get the ID
