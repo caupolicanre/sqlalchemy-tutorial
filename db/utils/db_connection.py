@@ -25,4 +25,4 @@ def get_db_connection():
     sqlalchemy.engine.base.Connection
         Database connection.
     '''
-    return create_engine(f'mysql+mysqlconnector://{db_user}@{db_url}/{db_name}')
+    return create_engine(f'mysql+mysqlconnector://{db_user}:{db_password}@{db_url}/{db_name}')
